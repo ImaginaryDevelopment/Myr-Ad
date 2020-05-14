@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <MyriadSdkGenerator Include="$(MSBuildThisFileDirectory)../lib/netstandard2.1/MyPlugin.dll" />
     <Compile Include="Generated.fs">
       <MyriadFile>Library.fs</MyriadFile>
       <MyriadNameSpace>Test</MyriadNameSpace>

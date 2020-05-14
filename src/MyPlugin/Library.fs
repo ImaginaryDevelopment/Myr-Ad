@@ -1,5 +1,8 @@
 ﻿namespace MyPlugin
 
+open System
+open FSharp.Compiler.Ast
+open FsAst
 open Myriad.Core
 
 [<MyriadGenerator("example1")>]

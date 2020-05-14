@@ -6,3 +6,4 @@ nuget FSharp.Core
 nuget Myriad.Core
 nuget Myriad.Plugins
 nuget Myriad.Sdk
+nuget FSharp.Compiler.Service 34.1.0
