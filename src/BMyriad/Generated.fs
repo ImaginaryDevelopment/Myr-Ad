@@ -32,3 +32,8 @@ module Test1 =
               four = mapfour record'.four }
 namespace rec Test
 
+
+namespace Test
+
+module example1 =
+    let fourtyTwo = 42
