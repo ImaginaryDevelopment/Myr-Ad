@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{706F8DDD-682
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MyPlugin", "src\MyPlugin\MyPlugin.fsproj", "{39B5E9F6-0993-45F2-BBE8-13A4EF1E60E2}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BMyriad", "src\BMyriad\BMyriad.fsproj", "{78CDC706-56A9-41EE-B15C-FA815B27C161}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{39B5E9F6-0993-45F2-BBE8-13A4EF1E60E2}.Release|x64.Build.0 = Release|Any CPU
 		{39B5E9F6-0993-45F2-BBE8-13A4EF1E60E2}.Release|x86.ActiveCfg = Release|Any CPU
 		{39B5E9F6-0993-45F2-BBE8-13A4EF1E60E2}.Release|x86.Build.0 = Release|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Debug|x64.Build.0 = Debug|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Debug|x86.Build.0 = Debug|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Release|x64.ActiveCfg = Release|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Release|x64.Build.0 = Release|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Release|x86.ActiveCfg = Release|Any CPU
+		{78CDC706-56A9-41EE-B15C-FA815B27C161}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{39B5E9F6-0993-45F2-BBE8-13A4EF1E60E2} = {706F8DDD-682E-4777-AE9C-63EF309BC42B}
+		{78CDC706-56A9-41EE-B15C-FA815B27C161} = {706F8DDD-682E-4777-AE9C-63EF309BC42B}
 	EndGlobalSection
 EndGlobal
