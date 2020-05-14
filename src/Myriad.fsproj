@@ -5,11 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Plugs.fs"/>
     <Compile Include="Generated.fs">
       <MyriadFile>Library.fs</MyriadFile>
       <MyriadNameSpace>Test</MyriadNameSpace>
     </Compile>
     <Compile Include="Program.fs" />
   </ItemGroup>
-  <Import Project=".paket\Paket.Restore.targets" />
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
