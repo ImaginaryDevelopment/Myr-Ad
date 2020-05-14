@@ -1,5 +1,6 @@
 ﻿namespace MyPlugin
-open Myriad.Sdk
+
+open Myriad.Core
 
 [<MyriadGenerator("example1")>]
 type Example1Gen() =
